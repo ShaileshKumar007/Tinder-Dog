@@ -128,6 +128,32 @@ p{
   padding: 3% 2%;
 }
 
+/* Call to action */
+#cta{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.cta-heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+/* Footer  */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
+.social-logo{
+  margin: 2%;
+}
+
 @media (max-width:991px){
   .title-image{
     position: static;
