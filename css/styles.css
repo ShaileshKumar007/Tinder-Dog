@@ -7,23 +7,19 @@ body {
   font-family: "Montserrat";
 }
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
 h2{
-  font-family: "Montserrat";
-  font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
 }
 
 h3{
-    font-family: "Montserrat";
     font-size: 1.5rem;
-    font-weight: 800;
 }
 
 .container-fluid {
@@ -109,6 +105,7 @@ p{
   padding: 7% 15%;
 }
 
+/* Press  */
 #press{
   background-color: #ef8172;
   text-align: center;
@@ -119,6 +116,7 @@ p{
   margin: 20px 20px 50px;
 }
 
+
 /* Pricing */
 #pricing{
   margin: 100px;
@@ -127,6 +125,8 @@ p{
 .pricing-col{
   padding: 3% 2%;
 }
+
+
 
 /* Call to action */
 #cta{
@@ -143,6 +143,7 @@ p{
   color: #fff;
 }
 
+
 /* Footer  */
 #footer{
   padding: 7% 15%;
@@ -153,6 +154,9 @@ p{
 .social-logo{
   margin: 2%;
 }
+
+
+/* Media queries */
 
 @media (max-width:991px){
   .title-image{
